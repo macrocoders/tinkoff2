@@ -3,7 +3,7 @@ require 'base64'
 
 module Tinkoff
   class RequestE2c
-    BASE_URL = 'https://securepay.tinkoff.ru/e2c/v2/'
+    BASE_URL = 'https://rest-api-test.tinkoff.ru/e2c/v2/'
 
     def initialize(path, params = {})
       @path = path
